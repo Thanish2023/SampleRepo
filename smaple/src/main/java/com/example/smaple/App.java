@@ -26,6 +26,5 @@ public class App
         }
         System.out.println(list);
         System.out.println("New Statement");
-        System.out.println("New Line");
     }
 }
