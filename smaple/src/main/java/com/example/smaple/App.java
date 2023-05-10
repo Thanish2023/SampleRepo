@@ -22,7 +22,6 @@ public class App
                     itr.remove();
                 }
             }
-
         }
         System.out.println(list);
         System.out.println("New Statement");
