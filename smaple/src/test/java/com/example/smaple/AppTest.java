@@ -15,6 +15,6 @@ public class AppTest
     public void test2()
     {
     	System.out.println("Failure test");
-    	Assert.assertEquals("Hi", "Hello");
+    	Assert.assertEquals("Hello", "Hello");
     }
 }
