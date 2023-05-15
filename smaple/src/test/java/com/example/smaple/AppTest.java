@@ -1,20 +1,20 @@
 package com.example.smaple;
 
-import static org.junit.Assert.assertTrue;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
-import org.junit.Test;
-
-/**
- * Unit test for simple App.
- */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
+    public void test1() {
+    	System.out.println("Sample test");
+    	Assert.assertEquals("Hi", "Hi");
+    }
+    
+    @Test
+    public void test2()
     {
-        assertTrue( true );
+    	System.out.println("Failure test");
+    	Assert.assertEquals("Hi", "Hello");
     }
 }
